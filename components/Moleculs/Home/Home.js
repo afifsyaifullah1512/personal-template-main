@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 import logoKreasiAsia from "../../../public/Work/KreasiAsia.svg";
 import logoPrantara from "../../../public/Work/Prantara.svg";
