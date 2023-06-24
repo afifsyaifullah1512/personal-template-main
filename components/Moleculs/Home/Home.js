@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 import logoKreasiAsia from "../../../public/Work/KreasiAsia.svg";
 import logoPrantara from "../../../public/Work/Prantara.svg";
@@ -146,25 +145,25 @@ const Project = () => {
     {
       title: "Dunia Anura",
       desc: "The Dunia Anura application helps pet stores manage the animals they sell, die or for other reasons. This application was created using Next js and Express js.",
-      link: "duniaanura",
+      link: "/duniaanura",
       date: "November 15, 2022",
     },
     {
       title: "Kandangku",
       desc: "Kandangku is an application that helps poultry farmers manage their egg-laying chicken coops. This application was created using React Native and Laravel.",
-      link: "kandangku",
+      link: "/kandangku",
       date: "Oktober , 2021",
     },
     {
       title: "Planteria",
       desc: "Planteria is an application that helps users take care of plants. This application was created using Laravel.",
-      link: "planteria",
+      link: "/planteria",
       date: "Maret 5, 2021",
     },
     {
       title: "ETWPAD",
       desc: "Etwpad is an application that helps users manage the financial data of members of the Indonesian Army. This application was created using Laravel.",
-      link: "planteria",
+      link: "/planteria",
       date: "November 17, 2021",
     },
   ];
@@ -174,23 +173,23 @@ const Project = () => {
         The Last Of Project
       </h1>
       <div className="flex flex-col gap-y-6 mt-6">
-        {listProject.map((index) => {
+        {listProject.map((project, index) => {
           return (
             <div
               key={index}
               className="rounded-2xl p-6 hover:bg-zinc-100 dark:bg-woodsmoke-700 dark:bg-opacity-40 dark:backdrop-blur-lg dark:hover:bg-woodsmoke-600 dark:hover:bg-opacity-40 dark:transition-all transition-all"
             >
               <span className="border-l-2 border-zinc-200 pl-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
-                {date}
+                {project.date}
               </span>
               <h1 className="mt-4 font-semibold text-lg text-woodsmoke-800 dark:text-white">
-                {title}
+                {project.title}
               </h1>
               <p className="mt-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
-                {desc}
+                {project.desc}
               </p>
               <Link
-                href={`${link}`}
+                href={`${project.link}`}
                 className={
                   "flex items-center gap-x-2 text-xs mt-4 w-fit text-woodsmoke-500 hover:text-indigo-500 font-semibold group transition-colors"
                 }
