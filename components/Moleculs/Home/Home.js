@@ -189,12 +189,7 @@ const Project = () => {
               <p className="mt-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
                 {project.desc}
               </p>
-              <Link
-                
-                className={
-                  "flex items-center gap-x-2 text-xs mt-4 w-fit text-woodsmoke-500 hover:text-indigo-500 font-semibold group transition-colors"
-                }
-              >
+              <Link>
                 View Project
                 <ArrowRightIcon className="fill-woodsmoke-400 h-4 w-4 group-hover:fill-indigo-500 transition-colors" />
               </Link>
