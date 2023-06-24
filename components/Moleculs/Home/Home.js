@@ -146,25 +146,25 @@ const Project = () => {
     {
       title: "Dunia Anura",
       desc: "The Dunia Anura application helps pet stores manage the animals they sell, die or for other reasons. This application was created using Next js and Express js.",
-      link: "/duniaanura",
+      link: "duniaanura",
       date: "November 15, 2022",
     },
     {
       title: "Kandangku",
       desc: "Kandangku is an application that helps poultry farmers manage their egg-laying chicken coops. This application was created using React Native and Laravel.",
-      link: "/kandangku",
+      link: "kandangku",
       date: "Oktober , 2021",
     },
     {
       title: "Planteria",
       desc: "Planteria is an application that helps users take care of plants. This application was created using Laravel.",
-      link: "/planteria",
+      link: "planteria",
       date: "Maret 5, 2021",
     },
     {
       title: "ETWPAD",
       desc: "Etwpad is an application that helps users manage the financial data of members of the Indonesian Army. This application was created using Laravel.",
-      link: "/planteria",
+      link: "planteria",
       date: "November 17, 2021",
     },
   ];
