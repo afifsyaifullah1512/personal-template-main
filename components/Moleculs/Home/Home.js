@@ -66,7 +66,7 @@ const Resume = () => {
     },
     {
       company: "Redhunter Academy",
-      title: "Web Developer",
+      title: "Belajar Membuat Aplikasi Android Pemula",
       logo: logoRedhunter,
       start: "2022",
       end: {
