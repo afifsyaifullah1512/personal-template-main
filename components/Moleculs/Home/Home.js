@@ -146,7 +146,7 @@ const Project = () => {
     {
       title: "Dunia Anura",
       desc: "The Dunia Anura application helps pet stores manage the animals they sell, die or for other reasons. This application was created using Next js and Express js.",
-      link: "github.com",
+      link: "/duniaanura",
       date: "November 15, 2022",
     },
     {
@@ -174,10 +174,10 @@ const Project = () => {
         The Last Of Project
       </h1>
       <div className="flex flex-col gap-y-6 mt-6">
-        {listProject.map((project) => {
+        {listProject.map((project, index) => {
           return (
             <div
-              
+              key={index}
               className="rounded-2xl p-6 hover:bg-zinc-100 dark:bg-woodsmoke-700 dark:bg-opacity-40 dark:backdrop-blur-lg dark:hover:bg-woodsmoke-600 dark:hover:bg-opacity-40 dark:transition-all transition-all"
             >
               <span className="border-l-2 border-zinc-200 pl-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
@@ -190,7 +190,7 @@ const Project = () => {
                 {project.desc}
               </p>
               <Link
-                href={`${project.link}`}
+                
                 className={
                   "flex items-center gap-x-2 text-xs mt-4 w-fit text-woodsmoke-500 hover:text-indigo-500 font-semibold group transition-colors"
                 }
