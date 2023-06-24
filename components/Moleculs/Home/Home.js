@@ -56,7 +56,7 @@ const Resume = () => {
   let resume = [
     {
       company: "Dicoding Indonesia",
-      title: "Founder & CEO",
+      title: "Belajar Pemrograman Kotlin",
       logo: logoStartcode,
       start: "2021",
       end: {
@@ -97,7 +97,7 @@ const Resume = () => {
     <div className="rounded-2xl border bg-white dark:bg-woodsmoke-700 dark:bg-opacity-40 dark:backdrop-blur-lg bg-opacity-60 backdrop-blur-lg border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Sertificate</span>
+        <span className="ml-3">Certificate Training</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
@@ -220,9 +220,9 @@ const Home = () => {
       <div className="max-w-2xl mt-8">
         <TypeAnimation
           sequence={[
-            "I'm Software engineer",
+            "I'm Junior Developer",
             1000,
-            "I'm front end developer and founder of Startcode Id.",
+            "Fresh Graduates from Universitas Putra Indonesia YPTK Padang.",
             2000,
           ]}
           wrapper="h1"
