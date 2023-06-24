@@ -190,7 +190,7 @@ const Project = () => {
                 {project.desc}
               </p>
               <Link
-                href={`${project.link}`}
+                href={`${link}`}
                 className={
                   "flex items-center gap-x-2 text-xs mt-4 w-fit text-woodsmoke-500 hover:text-indigo-500 font-semibold group transition-colors"
                 }
