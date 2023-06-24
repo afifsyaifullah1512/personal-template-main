@@ -146,7 +146,7 @@ const Project = () => {
     {
       title: "Dunia Anura",
       desc: "The Dunia Anura application helps pet stores manage the animals they sell, die or for other reasons. This application was created using Next js and Express js.",
-      link: "/duniaanura",
+      link: "github.com",
       date: "November 15, 2022",
     },
     {
