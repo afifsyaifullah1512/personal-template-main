@@ -209,7 +209,7 @@ const Home = () => {
   return (
     <>
       <Image
-        src={"/Foto.JPG"}
+        src={"/pict.JPG"}
         className={
           "w-16 h-16 rounded-full border-2 border-woodsmoke-50 dark:border-woodsmoke-800"
         }
