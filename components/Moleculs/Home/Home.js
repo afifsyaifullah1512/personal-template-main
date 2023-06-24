@@ -240,9 +240,9 @@ const Home = () => {
         <div className="col-span-1 lg:col-span-4">
           <Project />
         </div>
-        <div className="flex flex-col gap-y-6 col-span-1 lg:col-span-3">
+        {/* <div className="flex flex-col gap-y-6 col-span-1 lg:col-span-3">
           <Resume />
-        </div>
+        </div> */}
       </div>
     </>
   );
