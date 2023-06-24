@@ -4,9 +4,9 @@ export default function About() {
       <div className="grid grid-cols-1 lg:grid-cols-2 pt-16">
         <div>
           <h1 className="text-woodsmoke-800 dark:text-white font-bold text-3xl md:text-4xl lg:text-6xl">
-            I’m M Alfito. I live in Bogor City, where I design the future.
+            I’m Afif Syaifullah. I live in Batu Bara.
           </h1>
-          <p className="text-woodsmoke-500 dark:text-woodsmoke-300 mt-8">
+          {/* <p className="text-woodsmoke-500 dark:text-woodsmoke-300 mt-8">
             I’ve loved making things for as long as I can remember, and wrote my
             first program when I was 6 years old, just two weeks after my mom
             brought home the brand new Macintosh LC 550 that I taught myself to
@@ -25,7 +25,7 @@ export default function About() {
             badly broken legs. It took nine iterations, but when I was 15 I sent
             my dad’s Blackberry into orbit and was able to transmit a photo back
             down to our family computer from space.
-          </p>
+          </p> */}
         </div>
       </div>
     </>

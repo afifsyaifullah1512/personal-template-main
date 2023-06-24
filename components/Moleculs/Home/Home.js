@@ -4,10 +4,10 @@ import { TypeAnimation } from "react-type-animation";
 import logoKreasiAsia from "../../../public/Work/KreasiAsia.svg";
 import logoPrantara from "../../../public/Work/Prantara.svg";
 import logoRedhunter from "../../../public/Work/Redhunter.svg";
-import logoStartcode from "../../../public/Work/Startcode.svg";
+import logoStartcode from "../../../public/logo.jpg";
 
 const description =
-  "I’m Alfito, a frontend developer based in Bogor City Indonesia. I’m the founder and CEO of Startcode Id, where we develop technologies that empower people to grow their business using web and mobile applications.";
+  "I'm Afif Syaifullah, a junior developer.";
 
 const BriefcaseIcon = (props) => {
   return (
@@ -55,7 +55,7 @@ const ArrowRightIcon = (props) => {
 const Resume = () => {
   let resume = [
     {
-      company: "Startcode ID",
+      company: "Dicoding Indonesia",
       title: "Founder & CEO",
       logo: logoStartcode,
       start: "2021",
@@ -97,7 +97,7 @@ const Resume = () => {
     <div className="rounded-2xl border bg-white dark:bg-woodsmoke-700 dark:bg-opacity-40 dark:backdrop-blur-lg bg-opacity-60 backdrop-blur-lg border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-6 w-6 flex-none" />
-        <span className="ml-3">Work</span>
+        <span className="ml-3">Sertificate</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
