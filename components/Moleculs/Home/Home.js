@@ -174,7 +174,7 @@ const Project = () => {
       <h1 className="text-2xl font-bold text-woodsmoke-900 dark:text-white">
         The Last Of Project
       </h1>
-      <div className="flex flex-row gap-x-6 mt-6">
+      <div className="grid grid-cols-2 gap-x-6 mt-6">
   <div className="rounded-2xl p-6 hover:bg-zinc-100 dark:bg-woodsmoke-700 dark:bg-opacity-40 dark:backdrop-blur-lg dark:hover:bg-woodsmoke-600 dark:hover:bg-opacity-40 dark:transition-all transition-all">
     <span className="border-l-2 border-zinc-200 pl-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
       {listProject[0].date}
