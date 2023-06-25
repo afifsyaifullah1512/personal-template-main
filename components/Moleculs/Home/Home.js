@@ -145,70 +145,29 @@ const Project = () => {
   let listProject = [
     {
       title: "Nomads Travel",
-      desc: "Nomads Travel is an applications that helps people to buy ticket. This application was create using Laravel.",
+      desc: "Nomads Travel is an application that helps people to buy tickets. This application was created using Laravel.",
       link: "https://github.com/afifsyaifullah1512/nomads-travel",
       date: "In-Progress",
     },
-    // {
-    //   title: "Kandangku",
-    //   desc: "Kandangku is an application that helps poultry farmers manage their egg-laying chicken coops. This application was created using React Native and Laravel.",
-    //   link: "https://example.com/kandangku",
-    //   date: "Oktober , 2021",
-    // },
-    // {
-    //   title: "Planteria",
-    //   desc: "Planteria is an application that helps users take care of plants. This application was created using Laravel.",
-    //   link: "https://example.com/planteria",
-    //   date: "Maret 5, 2021",
-    // },
-    // {
-    //   title: "ETWPAD",
-    //   desc: "Etwpad is an application that helps users manage the financial data of members of the Indonesian Army. This application was created using Laravel.",
-    //   link: "https://example.com/etwpad",
-    //   date: "November 17, 2021",
-    // },
+    {
+      title: "New Project",
+      desc: "This is a new project description.",
+      link: "https://github.com/your-username/your-repo",
+      date: "Date",
+    },
   ];
-  
+
   return (
     <>
       <h1 className="text-2xl font-bold text-woodsmoke-900 dark:text-white">
         The Last Of Project
       </h1>
-      <div className="flex flex-col gap-y-6 mt-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
         {listProject.map((project, index) => {
           return (
             <div
               key={index}
-              className="rounded-2xl p-6 hover:bg-zinc-100 dark:bg-woodsmoke-700 dark:bg-opacity-40 dark:backdrop-blur-lg dark:hover:bg-woodsmoke-600 dark:hover:bg-opacity-40 dark:transition-all transition-all"
-            >
-              <span className="border-l-2 border-zinc-200 pl-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
-                {project.date}
-              </span>
-              <h1 className="mt-4 font-semibold text-lg text-woodsmoke-800 dark:text-white">
-                {project.title}
-              </h1>
-              <p className="mt-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
-                {project.desc}
-              </p>
-              <a
-                href={project.link}
-                className={
-                  "flex items-center gap-x-2 text-xs mt-4 w-fit text-woodsmoke-500 hover:text-indigo-500 font-semibold group transition-colors"
-                }
-              >
-                View Project
-                <ArrowRightIcon className="fill-woodsmoke-400 h-4 w-4 group-hover:fill-indigo-500 transition-colors" />
-              </a>
-            </div>
-          );
-        })}
-      </div>
-      <div className="flex flex-col gap-y-6 mt-6">
-        {listProject.map((project, index) => {
-          return (
-            <div
-              key={index}
-              className="rounded-2xl p-6 hover:bg-zinc-100 dark:bg-woodsmoke-700 dark:bg-opacity-40 dark:backdrop-blur-lg dark:hover:bg-woodsmoke-600 dark:hover:bg-opacity-40 dark:transition-all transition-all"
+              className="col-span-1 lg:col-span-4 rounded-2xl p-6 hover:bg-zinc-100 dark:bg-woodsmoke-700 dark:bg-opacity-40 dark:backdrop-blur-lg dark:hover:bg-woodsmoke-600 dark:hover:bg-opacity-40 dark:transition-all transition-all"
             >
               <span className="border-l-2 border-zinc-200 pl-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
                 {project.date}
@@ -235,6 +194,7 @@ const Project = () => {
     </>
   );
 };
+
 const Home = () => {
   return (
     <>
