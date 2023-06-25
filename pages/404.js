@@ -29,7 +29,7 @@ const Page404Error = () => {
               </p>
               <div className="mt-6">
                 <a
-                  href="/"
+                  href="https://afifsyaifullah.my.id"
                   className="text-base font-medium text-indigo-600 dark:text-indigo-500 hover:text-indigo-500"
                 >
                   Go back home
