@@ -53,197 +53,60 @@ const ArrowRightIcon = (props) => {
   );
 };
 // const Resume = () => {
-//   let resume = [
-//     {
-//       company: "Dicoding Indonesia",
-//       title: "Belajar Pemrograman Kotlin",
-//       logo: logoStartcode,
-//       start: "2021",
-//       end: {
-//         label: "Present",
-//         dateTime: new Date().getFullYear(),
-//       },
-//     },
-//     {
-//       company: "Redhunter Academy",
-//       title: "Belajar Membuat Aplikasi Android Pemula",
-//       logo: logoRedhunter,
-//       start: "2022",
-//       end: {
-//         label: "Present",
-//         dateTime: new Date().getFullYear(),
-//       },
-//     },
-//     {
-//       company: "PT Prantara",
-//       title: "Front End Developer",
-//       logo: logoPrantara,
-//       start: "2021",
-//       end: {
-//         label: "Present",
-//         dateTime: new Date().getFullYear(),
-//       },
-//     },
-//     {
-//       company: "PT Kreasi Asia",
-//       title: "Front End Developer",
-//       logo: logoKreasiAsia,
-//       start: "2021",
-//       end: "2021 November",
-//     },
-//   ];
-
-//   return (
-//     <div className="rounded-2xl border bg-white dark:bg-woodsmoke-700 dark:bg-opacity-40 dark:backdrop-blur-lg bg-opacity-60 backdrop-blur-lg border-zinc-100 p-6 dark:border-zinc-700/40">
-//       <h2 className="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-//         <BriefcaseIcon className="h-6 w-6 flex-none" />
-//         <span className="ml-3">Certificate Training</span>
-//       </h2>
-//       <ol className="mt-6 space-y-4">
-//         {resume.map((role, roleIndex) => (
-//           <li key={roleIndex} className="flex gap-4">
-//             <div className="relative mt-1 flex h-10 w-10 p-2 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-//               <Image
-//                 src={role.logo}
-//                 alt=""
-//                 className="h-7 w-7  object-contain"
-//                 unoptimized
-//               />
-//             </div>
-//             <dl className="flex flex-auto flex-wrap gap-x-2">
-//               <dt className="sr-only">Company</dt>
-//               <dd className="w-full flex-none text-sm font-medium text-zinc-900 dark:text-zinc-100">
-//                 {role.company}
-//               </dd>
-//               <dt className="sr-only">Role</dt>
-//               <dd className="text-xs text-zinc-500 dark:text-zinc-400">
-//                 {role.title}
-//               </dd>
-//               <dt className="sr-only">Date</dt>
-//               <dd
-//                 className="ml-auto text-xs text-zinc-400 dark:text-zinc-500"
-//                 aria-label={`${role.start.label ?? role.start} until ${
-//                   role.end.label ?? role.end
-//                 }`}
-//               >
-//                 <time dateTime={role.start.dateTime ?? role.start}>
-//                   {role.start.label ?? role.start}
-//                 </time>{" "}
-//                 <span aria-hidden="true">—</span>{" "}
-//                 <time dateTime={role.end.dateTime ?? role.end}>
-//                   {role.end.label ?? role.end}
-//                 </time>
-//               </dd>
-//             </dl>
-//           </li>
-//         ))}
-//       </ol>
-//     </div>
-//   );
-// };
-const Project = () => {
-  let listProject = [
-    {
-      title: "Nomads Travel",
-      desc: "Nomads Travel is an applications that helps people to buy ticket. This application was create using Laravel.",
-      link: "https://github.com/afifsyaifullah1512/nomads-travel",
-      date: "In-Progress",
-    },
-    // {
-    //   title: "Kandangku",
-    //   desc: "Kandangku is an application that helps poultry farmers manage their egg-laying chicken coops. This application was created using React Native and Laravel.",
-    //   link: "https://example.com/kandangku",
-    //   date: "Oktober , 2021",
-    // },
-    // {
-    //   title: "Planteria",
-    //   desc: "Planteria is an application that helps users take care of plants. This application was created using Laravel.",
-    //   link: "https://example.com/planteria",
-    //   date: "Maret 5, 2021",
-    // },
-    // {
-    //   title: "ETWPAD",
-    //   desc: "Etwpad is an application that helps users manage the financial data of members of the Indonesian Army. This application was created using Laravel.",
-    //   link: "https://example.com/etwpad",
-    //   date: "November 17, 2021",
-    // },
-  ];
+  const Project = () => {
+    let listProject = [
+      {
+        title: "Nomads Travel",
+        desc: "Nomads Travel is an application that helps people to buy tickets. This application was created using Laravel.",
+        link: "https://github.com/afifsyaifullah1512/nomads-travel",
+        date: "In-Progress",
+      },
+      {
+        title: "New Project",
+        desc: "This is a new project description.",
+        link: "https://github.com/your-username/your-repo",
+        date: "Date",
+      },
+    ];
   
-  return (
-    <>
-      <h1 className="text-2xl font-bold text-woodsmoke-900 dark:text-white">
-        The Last Of Project
-      </h1>
-      return (
-    <>
-      <h1 className="text-2xl font-bold text-woodsmoke-900 dark:text-white">
-        The Last Of Project
-      </h1>
-      <div className="flex flex-col gap-y-6 mt-6">
-        {listProject.map((project, index) => {
-          return (
-            <div
-              key={index}
-              className="rounded-2xl p-6 hover:bg-zinc-100 dark:bg-woodsmoke-700 dark:bg-opacity-40 dark:backdrop-blur-lg dark:hover:bg-woodsmoke-600 dark:hover:bg-opacity-40 dark:transition-all transition-all"
-            >
-              <span className="border-l-2 border-zinc-200 pl-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
-                {project.date}
-              </span>
-              <h1 className="mt-4 font-semibold text-lg text-woodsmoke-800 dark:text-white">
-                {project.title}
-              </h1>
-              <p className="mt-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
-                {project.desc}
-              </p>
-              <a
-                href={project.link}
-                className={
-                  "flex items-center gap-x-2 text-xs mt-4 w-fit text-woodsmoke-500 hover:text-indigo-500 font-semibold group transition-colors"
-                }
+    return (
+      <>
+        <h1 className="text-2xl font-bold text-woodsmoke-900 dark:text-white">
+          The Last Of Project
+        </h1>
+        <div className="flex flex-wrap gap-6 mt-6">
+          {listProject.map((project, index) => {
+            return (
+              <div
+                key={index}
+                className="flex flex-col rounded-2xl p-6 hover:bg-zinc-100 dark:bg-woodsmoke-700 dark:bg-opacity-40 dark:backdrop-blur-lg dark:hover:bg-woodsmoke-600 dark:hover:bg-opacity-40 dark:transition-all transition-all"
               >
-                View Project
-                <ArrowRightIcon className="fill-woodsmoke-400 h-4 w-4 group-hover:fill-indigo-500 transition-colors" />
-              </a>
-            </div>
-          );
-        })}
-      </div>
-
-      <div className="flex flex-col gap-y-6 mt-6">
-        {listProject.map((project, index) => {
-          return (
-            <div
-              key={index}
-              className="rounded-2xl p-6 hover:bg-zinc-100 dark:bg-woodsmoke-700 dark:bg-opacity-40 dark:backdrop-blur-lg dark:hover:bg-woodsmoke-600 dark:hover:bg-opacity-40 dark:transition-all transition-all"
-            >
-              <span className="border-l-2 border-zinc-200 pl-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
-                {project.date}
-              </span>
-              <h1 className="mt-4 font-semibold text-lg text-woodsmoke-800 dark:text-white">
-                {project.title}
-              </h1>
-              <p className="mt-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
-                {project.desc}
-              </p>
-              <a
-                href={project.link}
-                className={
-                  "flex items-center gap-x-2 text-xs mt-4 w-fit text-woodsmoke-500 hover:text-indigo-500 font-semibold group transition-colors"
-                }
-              >
-                View Project
-                <ArrowRightIcon className="fill-woodsmoke-400 h-4 w-4 group-hover:fill-indigo-500 transition-colors" />
-              </a>
-            </div>
-          );
-        })}
-      </div>
-    </>
-);
-
-    </>
-  );
-};
+                <span className="border-l-2 border-zinc-200 pl-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
+                  {project.date}
+                </span>
+                <h1 className="mt-4 font-semibold text-lg text-woodsmoke-800 dark:text-white">
+                  {project.title}
+                </h1>
+                <p className="mt-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
+                  {project.desc}
+                </p>
+                <a
+                  href={project.link}
+                  className={
+                    "flex items-center gap-x-2 text-xs mt-4 w-fit text-woodsmoke-500 hover:text-indigo-500 font-semibold group transition-colors"
+                  }
+                >
+                  View Project
+                  <ArrowRightIcon className="fill-woodsmoke-400 h-4 w-4 group-hover:fill-indigo-500 transition-colors" />
+                </a>
+              </div>
+            );
+          })}
+        </div>
+      </>
+    );
+  };
+  
 const Home = () => {
   return (
     <>
