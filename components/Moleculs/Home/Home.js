@@ -175,34 +175,58 @@ const Project = () => {
         The Last Of Project
       </h1>
       <div className="flex flex-col gap-y-6 mt-6">
-        {listProject.map((project, index) => {
-          return (
-            <div
-              key={index}
-              className="rounded-2xl p-6 hover:bg-zinc-100 dark:bg-woodsmoke-700 dark:bg-opacity-40 dark:backdrop-blur-lg dark:hover:bg-woodsmoke-600 dark:hover:bg-opacity-40 dark:transition-all transition-all"
-            >
-              <span className="border-l-2 border-zinc-200 pl-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
-                {project.date}
-              </span>
-              <h1 className="mt-4 font-semibold text-lg text-woodsmoke-800 dark:text-white">
-                {project.title}
-              </h1>
-              <p className="mt-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
-                {project.desc}
-              </p>
-              <a
-                href={project.link}
-                className={
-                  "flex items-center gap-x-2 text-xs mt-4 w-fit text-woodsmoke-500 hover:text-indigo-500 font-semibold group transition-colors"
-                }
-              >
-                View Project
-                <ArrowRightIcon className="fill-woodsmoke-400 h-4 w-4 group-hover:fill-indigo-500 transition-colors" />
-              </a>
-            </div>
-          );
-        })}
+  {listProject.map((project, index) => {
+    return (
+      <div
+        key={index}
+        className="rounded-2xl p-6 hover:bg-zinc-100 dark:bg-woodsmoke-700 dark:bg-opacity-40 dark:backdrop-blur-lg dark:hover:bg-woodsmoke-600 dark:hover:bg-opacity-40 dark:transition-all transition-all"
+      >
+        <span className="border-l-2 border-zinc-200 pl-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
+          {project.date}
+        </span>
+        <h1 className="mt-4 font-semibold text-lg text-woodsmoke-800 dark:text-white">
+          {project.title}
+        </h1>
+        <p className="mt-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
+          {project.desc}
+        </p>
+        <a
+          href={project.link}
+          className={
+            "flex items-center gap-x-2 text-xs mt-4 w-fit text-woodsmoke-500 hover:text-indigo-500 font-semibold group transition-colors"
+          }
+        >
+          View Project
+          <ArrowRightIcon className="fill-woodsmoke-400 h-4 w-4 group-hover:fill-indigo-500 transition-colors" />
+        </a>
       </div>
+    );
+  })}
+  
+  <div
+    className="rounded-2xl p-6 hover:bg-zinc-100 dark:bg-woodsmoke-700 dark:bg-opacity-40 dark:backdrop-blur-lg dark:hover:bg-woodsmoke-600 dark:hover:bg-opacity-40 dark:transition-all transition-all"
+  >
+    <span className="border-l-2 border-zinc-200 pl-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
+      Another Date
+    </span>
+    <h1 className="mt-4 font-semibold text-lg text-woodsmoke-800 dark:text-white">
+      Another Title
+    </h1>
+    <p className="mt-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
+      Another Description
+    </p>
+    <a
+      href="#"
+      className={
+        "flex items-center gap-x-2 text-xs mt-4 w-fit text-woodsmoke-500 hover:text-indigo-500 font-semibold group transition-colors"
+      }
+    >
+      View Project
+      <ArrowRightIcon className="fill-woodsmoke-400 h-4 w-4 group-hover:fill-indigo-500 transition-colors" />
+    </a>
+  </div>
+</div>
+
     </>
   );
 };
