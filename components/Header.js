@@ -90,30 +90,30 @@ export function Header() {
                   About
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   className="relative block px-3 py-2 transition hover:text-indigo-500 dark:hover:text-indigo-600"
                   href="/projects"
                 >
                   Projects
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link
                   className="relative block px-3 py-2 transition hover:text-indigo-500 dark:hover:text-indigo-600"
                   href="/speaking"
                 >
                   Speaking
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link
                   className="relative block px-3 py-2 transition hover:text-indigo-500 dark:hover:text-indigo-600"
                   href="/uses"
                 >
                   Uses
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>
