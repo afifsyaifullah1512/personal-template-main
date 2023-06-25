@@ -146,28 +146,29 @@ const Project = () => {
     {
       title: "Dunia Anura",
       desc: "The Dunia Anura application helps pet stores manage the animals they sell, die or for other reasons. This application was created using Next js and Express js.",
-      link: "/duniaanura",
+      link: "https://example.com/duniaanura",
       date: "November 15, 2022",
     },
     {
       title: "Kandangku",
       desc: "Kandangku is an application that helps poultry farmers manage their egg-laying chicken coops. This application was created using React Native and Laravel.",
-      link: "/kandangku",
+      link: "https://example.com/kandangku",
       date: "Oktober , 2021",
     },
     {
       title: "Planteria",
       desc: "Planteria is an application that helps users take care of plants. This application was created using Laravel.",
-      link: "/planteria",
+      link: "https://example.com/planteria",
       date: "Maret 5, 2021",
     },
     {
       title: "ETWPAD",
       desc: "Etwpad is an application that helps users manage the financial data of members of the Indonesian Army. This application was created using Laravel.",
-      link: "/planteria",
+      link: "https://example.com/etwpad",
       date: "November 17, 2021",
     },
   ];
+  
   return (
     <>
       <h1 className="text-2xl font-bold text-woodsmoke-900 dark:text-white">
@@ -189,15 +190,15 @@ const Project = () => {
               <p className="mt-2 text-woodsmoke-400 text-sm dark:text-woodsmoke-300">
                 {project.desc}
               </p>
-              <Link
-                href={`${project.link}`}
+              <a
+                href={project.link}
                 className={
                   "flex items-center gap-x-2 text-xs mt-4 w-fit text-woodsmoke-500 hover:text-indigo-500 font-semibold group transition-colors"
                 }
               >
                 View Project
                 <ArrowRightIcon className="fill-woodsmoke-400 h-4 w-4 group-hover:fill-indigo-500 transition-colors" />
-              </Link>
+              </a>
             </div>
           );
         })}
