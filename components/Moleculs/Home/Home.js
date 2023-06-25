@@ -144,29 +144,29 @@ const ArrowRightIcon = (props) => {
 const Project = () => {
   let listProject = [
     {
-      title: "Dunia Anura",
-      desc: "The Dunia Anura application helps pet stores manage the animals they sell, die or for other reasons. This application was created using Next js and Express js.",
-      link: "https://example.com/duniaanura",
-      date: "November 15, 2022",
+      title: "Nomads Travel",
+      desc: "Nomads Travel is an applications that helps people to buy ticket. This application was create using Laravel.",
+      link: "https://github.com/afifsyaifullah1512/nomads-travel",
+      date: "In-Progress",
     },
-    {
-      title: "Kandangku",
-      desc: "Kandangku is an application that helps poultry farmers manage their egg-laying chicken coops. This application was created using React Native and Laravel.",
-      link: "https://example.com/kandangku",
-      date: "Oktober , 2021",
-    },
-    {
-      title: "Planteria",
-      desc: "Planteria is an application that helps users take care of plants. This application was created using Laravel.",
-      link: "https://example.com/planteria",
-      date: "Maret 5, 2021",
-    },
-    {
-      title: "ETWPAD",
-      desc: "Etwpad is an application that helps users manage the financial data of members of the Indonesian Army. This application was created using Laravel.",
-      link: "https://example.com/etwpad",
-      date: "November 17, 2021",
-    },
+    // {
+    //   title: "Kandangku",
+    //   desc: "Kandangku is an application that helps poultry farmers manage their egg-laying chicken coops. This application was created using React Native and Laravel.",
+    //   link: "https://example.com/kandangku",
+    //   date: "Oktober , 2021",
+    // },
+    // {
+    //   title: "Planteria",
+    //   desc: "Planteria is an application that helps users take care of plants. This application was created using Laravel.",
+    //   link: "https://example.com/planteria",
+    //   date: "Maret 5, 2021",
+    // },
+    // {
+    //   title: "ETWPAD",
+    //   desc: "Etwpad is an application that helps users manage the financial data of members of the Indonesian Army. This application was created using Laravel.",
+    //   link: "https://example.com/etwpad",
+    //   date: "November 17, 2021",
+    // },
   ];
   
   return (
