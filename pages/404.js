@@ -6,7 +6,7 @@ const Page404Error = () => {
       <div className="flex min-h-full flex-col pt-16 ">
         <div className="mx-auto flex w-full max-w-7xl flex-grow flex-col justify-center px-4 sm:px-6 lg:px-8">
           <div className="flex flex-shrink-0 justify-center">
-            <Image
+            {/* <Image
               src={"/pict.JPG"}
               className={
                 "w-28 h-28 rounded-full border-2 border-woodsmoke-50 dark:border-woodsmoke-800"
@@ -14,7 +14,7 @@ const Page404Error = () => {
               width={112}
               height={112}
               alt={"Profile"}
-            />
+            /> */}
           </div>
           <div className="py-16">
             <div className="text-center">
