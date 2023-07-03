@@ -149,12 +149,12 @@ const Project = () => {
       link: "https://github.com/afifsyaifullah1512/nomads-travel",
       date: "In-Progress",
     },
-    // {
-    //   title: "Kandangku",
-    //   desc: "Kandangku is an application that helps poultry farmers manage their egg-laying chicken coops. This application was created using React Native and Laravel.",
-    //   link: "https://example.com/kandangku",
-    //   date: "Oktober , 2021",
-    // },
+    {
+      title: "Coming Soon..",
+      desc: "",
+      link: "#",
+      date: "Coming Soon",
+    },
     // {
     //   title: "Planteria",
     //   desc: "Planteria is an application that helps users take care of plants. This application was created using Laravel.",
