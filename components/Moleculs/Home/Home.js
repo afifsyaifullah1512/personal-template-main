@@ -152,7 +152,7 @@ const Project = () => {
     {
       title: "Coming Soon..",
       desc: "",
-      link: "https://demo.afif-syaifullah.my.id",
+      link: "#",
       date: "Coming Soon",
     },
     // {
