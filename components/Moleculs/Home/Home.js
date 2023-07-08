@@ -152,7 +152,7 @@ const Project = () => {
     {
       title: "Coming Soon..",
       desc: "",
-      link: "##",
+      link: "#",
       date: "Coming Soon",
     },
     // {
