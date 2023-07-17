@@ -147,13 +147,13 @@ const Project = () => {
       title: "Nomads Travel",
       desc: "Nomads Travel is an applications that helps people to buy ticket. This application was create using Laravel.",
       link: "https://github.com/afifsyaifullah1512/nomads-travel",
-      date: "In-Progress",
+      date: "",
     },
     {
-      title: "Coming Soon..",
-      desc: "",
-      link: "#@$",
-      date: "Coming Soon",
+      title: "Food Market App - BackEnd - On Progress",
+      desc: "Food Market app is application to make an order on mobile app using Kotlin, with BackEnd using Laravel, but, it's on progress right now..",
+      link: "https://github.com/afifsyaifullah1512/food-market-app-backend",
+      date: "On Progress",
     },
     // {
     //   title: "Planteria",
