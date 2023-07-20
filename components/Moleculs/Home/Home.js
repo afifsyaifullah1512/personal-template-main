@@ -150,7 +150,7 @@ const Project = () => {
       date: "",
     },
     {
-      title: "Food Market App - BackEnd - On Progress",
+      title: "Food Market App - BackEnd ",
       desc: "Food Market app is application to make an order on mobile app using Kotlin, with BackEnd using Laravel, but, it's on progress right now..",
       link: "https://github.com/afifsyaifullah1512/food-market-app-backend",
       date: "On Progress",
