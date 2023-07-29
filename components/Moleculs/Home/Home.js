@@ -155,6 +155,12 @@ const Project = () => {
       link: "https://github.com/afifsyaifullah1512/food-market-app-backend",
       date: "On Progress",
     },
+    {
+      title: "Food Market App - <Mobile App> ",
+      desc: "Food Market app is application to make an order on mobile app using Kotlin, with BackEnd using Laravel, but, it's on progress right now..",
+      link: "https://github.com/afifsyaifullah1512/food-market-app-backend",
+      date: "On Progress",
+    },
     // {
     //   title: "Planteria",
     //   desc: "Planteria is an application that helps users take care of plants. This application was created using Laravel.",
