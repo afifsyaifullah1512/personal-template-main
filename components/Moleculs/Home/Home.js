@@ -163,7 +163,7 @@ const Project = () => {
     },
     // {
     //   title: "Planteria",
-    //   desc: "Planteria is an application that helps users take care of plants. This application was created using Laravel.",
+    //   desc: "Planteria is an application that elps users take care of plants. This application was created using Laravel.",
     //   link: "https://example.com/planteria",
     //   date: "Maret 5, 2021",
     // },
